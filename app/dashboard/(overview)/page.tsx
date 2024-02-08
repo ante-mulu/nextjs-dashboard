@@ -22,9 +22,6 @@ export default async function Page() {
         <Suspense fallback={<LatestInvoicesSkeleton />}>
         <LatestInvoices/>
         </Suspense>
-        <Suspense fallback={<CardSkeleton />}>
-<CardWrapper />
-        </Suspense>
       </div>
     </main>
   );
